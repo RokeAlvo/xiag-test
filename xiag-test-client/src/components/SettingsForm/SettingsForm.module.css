@@ -1,0 +1,21 @@
+.root {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    grid-row-gap: 1rem;
+    grid-column-gap: 0.5rem;
+    min-width: 300px;
+}
+
+.listItem {
+    padding: 0.5rem 0;
+    display: contents;
+}
+
+.addButton {}
+
+.submit,
+.addButton {
+    grid-column: span 2;
+    justify-self: center;
+}

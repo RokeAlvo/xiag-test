@@ -1,0 +1,35 @@
+.root {
+    display: grid;
+    grid-row-gap: 2rem;
+    align-items: start;
+    align-content: start;
+}
+
+.resultTable {
+    display: grid;
+    grid-row-gap: 1rem;
+}
+
+.answer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 0.25rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.answerBlock {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -1rem;
+}
+
+.input {
+    padding: 0.5rem 1rem
+}
+
+.form {
+    display: grid;
+    grid-row-gap: 1rem;
+    justify-items: start;
+}

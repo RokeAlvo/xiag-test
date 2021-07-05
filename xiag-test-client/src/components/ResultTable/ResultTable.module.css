@@ -1,0 +1,27 @@
+.root {
+    display: grid;
+    grid-template-columns: minmax(auto, 200px) repeat(var(--columns, 2), minmax(50px,  1fr));
+    justify-items: center;
+}
+.header {
+    display: contents;
+}
+.headerCell {
+    background-color: lightgrey;
+}
+.body {}
+.cell {
+    padding: 0.5rem;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    text-align: center;
+}
+.justifyStart {
+    justify-self: start;
+    text-align: left;
+    padding-left: 0;
+}
+.cell--active {}
+.row {
+    display: contents;
+}

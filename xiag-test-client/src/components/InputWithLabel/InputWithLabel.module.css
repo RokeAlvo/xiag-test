@@ -1,0 +1,9 @@
+.label {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+    align-items: center;
+}
+.input {
+    padding: 0.5rem 1rem;
+}
