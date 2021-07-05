@@ -66,7 +66,7 @@ const component = observer(function SettingsForm() {
                 </Button>
                 <Button
                     onClick={onSubmit}
-                    disabled={!store.disabled}
+                    disabled={store.disabled}
                     className={style.submit}
                 >
                     START

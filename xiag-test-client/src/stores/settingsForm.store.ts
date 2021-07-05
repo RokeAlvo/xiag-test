@@ -29,7 +29,7 @@ export class SettingsFormStore {
     }
 
     public async createPoll(): Promise<PollDto | undefined> {
-        this.isLoading = true
+        // this.isLoading = true
         return await pollService.create({
             question: this._question,
             answersList: this._answerList.filter(a => !!a)
